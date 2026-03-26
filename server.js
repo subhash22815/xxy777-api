@@ -19,7 +19,7 @@ app.use((req, res, next) => {
 });
 
 // MongoDB connect
-mongoose.connect("YOUR_MONGO_URL")
+mongoose.connect("mongodb+srv://subhashchandra515_db_user:sd23rdjan1997@cluster0.x8rlk0f.mongodb.net/?appName=Cluster0")
 .then(() => console.log("MongoDB Connected"))
 .catch(err => console.log(err));
 
